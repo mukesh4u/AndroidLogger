@@ -19,8 +19,15 @@ Android Logger library project that works with jitpack.io.
 	}
 
 # Step 3. Add In yoor Application class
-   
 ```
+The init method have two parameter one is boolean and other is string.
+   -boolea : if debug mode then set true and for release set true base on this it will enabled and
+             disabled all the logs .
+   -string : this is a tag name, which we have to pass	 
+```
+
+```
+
 public class LoggerApplication extends Application {
     @Override
     public void onCreate() {
